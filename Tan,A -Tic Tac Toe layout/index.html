@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Layout</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tic-tac-toe">
+
+        <div class="cell" onclick="changeTurn(this)" id = "0"></div>
+        <div class="cell" onclick="changeTurn(this)" id = "1"></div>
+        <div class="cell" onclick="changeTurn(this)" id = "2"></div>
+
+        <div class="cell" onclick="changeTurn(this)" id = "3"></div>
+        <div class="cell" onclick="changeTurn(this)" id = "4"></div>
+        <div class="cell" onclick="changeTurn(this)" id = "5"></div>
+
+        <div class="cell" onclick="changeTurn(this)" id = "6"></div>
+        <div class="cell" onclick="changeTurn(this)" id = "7"></div>
+        <div class="cell" onclick="changeTurn(this)" id = "8"></div>
+
+        <div id="overlay" class="overlay" style="display: none;"></div>
+        <button id="resetButton" style="display: none;" onclick = resetGame()>Reset Game</button>
+    </div>
+
+    
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
